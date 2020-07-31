@@ -15,7 +15,6 @@ import Ten from '../images/grills/ten.jpg'
 import Eleven from '../images/grills/eleven.jpg'
 import Thirt from '../images/grills/thirt.jpg'
 
-
 const Home = (props) => {
   console.log(props);
 

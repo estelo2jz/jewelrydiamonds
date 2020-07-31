@@ -12,6 +12,14 @@
       margin: 20px;
       padding: 20px;
       box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+
+    }
+
+    .image-padd:hover {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.1); 
+      overflow: hidden;
     }
 
     .jewel-name {
@@ -60,6 +68,37 @@
       transform: translateY(4px);
     }
   }
+}
+
+
+// Hover state
+
+.thecard {
+  position: absulote;
+  height: 400px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+  left: 0;
+}
+
+.thefront {
+  position: absolute;
+  height: 300px;
+  backface-visibility: hidden;
+  color: #333;
+}
+
+.theback {
+  position: absolute;
+  height: 300px;
+  backface-visibility: hidden;
+  color: #333;
+  margin-left: 40px;
+  transform: rotateY(180deg);
 }
 
 

@@ -16,7 +16,7 @@ import Chainz11 from '../images/chainz/chain11.jpg'
 import Chainz12 from '../images/chainz/chain12.jpg'
 
 
-const Home = (props) => {
+const Chainz = (props) => {
   console.log(props);
 
   //  PASS the state inside of home component, but impossible to the NavBar component
@@ -117,4 +117,4 @@ const Home = (props) => {
   );
 }
 
-export default Home;
+export default Chainz;
