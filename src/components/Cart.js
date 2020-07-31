@@ -1,18 +1,5 @@
 import React, { Fragment } from 'react';
 
-import One from '../images/grills/one.jpg'
-import Two from '../images/grills/two.jpg'
-import Three from '../images/grills/three.jpg'
-import Four from '../images/grills/four.jpg'
-import Fift from '../images/grills/fift.jpg'
-import Sixth from '../images/grills/sixth.jpg'
-import Seven from '../images/grills/seven.jpg'
-import Eight from '../images/grills/eight.jpg'
-import Nine from '../images/grills/nine.jpg'
-import Ten from '../images/grills/ten.jpg'
-import Eleven from '../images/grills/eleven.jpg'
-import Thirt from '../images/grills/thirt.jpg'
-
 function Cart({basketProps}) {
   // console.log(basketProps);
 
