@@ -29,8 +29,8 @@ const Home = (props) => {
   return (
     <div className="container">
       <div className="image">
-        <img src={One} alt="GOLDTEETH S505 INVISIBLE SET EMERALD CUT DIAMOND TOOTH" />
-        <h3 className="jewel-name">S505 INVISIBLE SET EMERALD CUT DIAMOND TOOTH</h3>
+        <img src={One} alt="GOLDTEETH S505 INVISIBLE SET EMERALD CUT DIAMOND" />
+        <h3 className="jewel-name">S505 INVISIBLE SET EMERALD CUT DIAMOND</h3>
         <h3 className="jewel-price">$4,000,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
