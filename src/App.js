@@ -6,6 +6,7 @@ import Chainz from './components/Chainz';
 import Watchz from './components/Watchz';
 import Pendantz from './components/Pendantz';
 import Cart from './components/Cart';
+import Footer from './components/footer';
 // import { Provider } from 'react-redux';
 // import store from './store';
 import { BrowserRouter as Router, Route, Switch } from  'react-router-dom';
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/pendantz" component={Pendantz} />
             <Route path="/cart" component={Cart} />
           </Switch>
+          <Footer />
         </Router>
       </div>
     // </Provider>
