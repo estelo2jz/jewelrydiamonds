@@ -2,9 +2,23 @@ import React from 'react';
 
 import '../styles/main.scss';
 
-import One from '../images/pendantz/pendants1.jpg'
-import Two from '../images/pendantz/pendants2.jpg'
-import Three from '../images/pendantz/pendants3.jpg'
+import Pendantz1 from '../images/pendantz/pendantz1.jpg';
+import Pendantz2 from '../images/pendantz/pendantz2.jpg';
+import Pendantz3 from '../images/pendantz/pendantz3.jpg';
+import Pendantz4 from '../images/pendantz/pendantz4.jpg';
+import Pendantz5 from '../images/pendantz/pendantz5.jpg';
+import Pendantz6 from '../images/pendantz/pendantz6.jpg';
+import Pendantz7 from '../images/pendantz/pendantz7.jpg';
+import Pendantz8 from '../images/pendantz/pendantz8.jpg';
+import Pendantz9 from '../images/pendantz/pendantz9.jpg';
+import Pendantz10 from '../images/pendantz/pendantz10.jpg';
+import Pendantz11 from '../images/pendantz/pendantz11.jpg';
+import Pendantz12 from '../images/pendantz/pendantz12.jpg';
+import Pendantz13 from '../images/pendantz/pendantz13.jpg';
+import Pendantz14 from '../images/pendantz/pendantz14.jpg';
+import Pendantz15 from '../images/pendantz/pendantz15.jpg';
+
+
 
 const Home = (props) => {
   console.log(props);
@@ -19,76 +33,96 @@ const Home = (props) => {
   return (
     <div className="container">
       <div className="image">
-        <img src={One} alt="GOLDTEETH S505 INVISIBLE SET EMERALD CUT DIAMOND TOOTH" />
-        <h3 className="jewel-name">S505 INVISIBLE SET EMERALD CUT DIAMOND TOOTH</h3>
-        <h3 className="jewel-price">$4,000,00</h3>
+        <img src={Pendantz1} alt="Jesus Of Nazareth Pendant 14k Yellow Gold" />
+        <h3 className="jewel-name">Jesus Of Nazareth Pendant 14k Yellow Gold</h3>
+        <h3 className="jewel-price">$25,000,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Two} alt="S161506-3A CUSTOM SKY BLUE DIAMOND HAND SET GRILL FOR TYGA" />
-        <h3 className="jewel-name">S161506-3A SKY BLUE DIAMOND HAND SET GRILL</h3>
-        <h3 className="jewel-price">$24,000,00</h3>
+        <img src={Pendantz2} alt="Striped Mane Lion Pendant - 14k Yellow Gold" />
+        <h3 className="jewel-name">Striped Mane Lion Pendant - 14k Yellow Gold</h3>
+        <h3 className="jewel-price">$20,000,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Three} alt="JDG73-ICE SKATE 8 PIECE INVISIBLE HANDSET DIAMOND GRILL" />
-        <h3 className="jewel-name">JDG73-ICE SKATE 8 PIECE INVISIBLE DIAMOND GRILL</h3>
-        <h3 className="jewel-price">$5,162,00</h3>
+        <img src={Pendantz3} alt="Jesus Piece Pendant 14k Yellow Gold " />
+        <h3 className="jewel-name">Jesus Piece Pendant 14k Yellow Gold</h3>
+        <h3 className="jewel-price">$16,000,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Four} alt="JDG65-BLUE MAGIC 4 ROW HAND SET DIAMOND GRILL" />
-        <h3 className="jewel-name">JDG65-BLUE MAGIC 4 ROW HAND SET DIAMOND GRILL</h3>
-        <h3 className="jewel-price">$11,200,00</h3>
+        <img src={Pendantz4} alt="Jesus Piece Pendant 14k Rose Gold " />
+        <h3 className="jewel-name">Jesus Piece Pendant 14k Rose Gold </h3>
+        <h3 className="jewel-price">$16,000,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+      </div>
+      <div className="image">
+        <img src={Pendantz5} alt="Jesus Piece Lg Pendant 14k Yellow Gold" />
+        <h3 className="jewel-name">Jesus Piece Lg Pendant 14k Yellow Gold</h3>
+        <h3 className="jewel-price">$16,000,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Fift} alt="S161506-1B INVISIBLE HANDSET DIAMOND GRILL" />
-        <h3 className="jewel-name">S161506-1B INVISIBLE HANDSET DIAMOND GRILL</h3>
-        <h3 className="jewel-price">$6,4000,00</h3>
+        <img src={Pendantz6} alt="Ghost Pendant 14k White Gold" />
+        <h3 className="jewel-name">Ghost Pendant 14k White Gold</h3>
+        <h3 className="jewel-price">$15,000,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Sixth} alt="S2530032-A 16 GOLD TEETH BLOCK SET GRILL" />
-        <h3 className="jewel-name">S2530032-A 16 GOLD TEETH BLOCK SET GRILL</h3>
-        <h3 className="jewel-price">$6,000,00</h3>
+        <img src={Pendantz7} alt="Hamsa Pendant 14k Yellow Gold" />
+        <h3 className="jewel-name">Hamsa Pendant 14k Yellow Gold</h3>
+        <h3 className="jewel-price">$15,000,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+      </div>
+      <div className="image">
+        <img src={Pendantz8} alt="Full Body Black Panther Pendant 14k White Gold" />
+        <h3 className="jewel-name">Full Body Black Panther Pendant 14k White Gold</h3>
+        <h3 className="jewel-price">$12,500,00</h3>
+        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+      </div>
+
+
+      <div className="image">
+        <img src={Pendantz9} alt="Prayer Hands Pendant 14k Yellow Gold" />
+        <h3 className="jewel-name">Prayer Hands Pendant 14k Yellow Gold</h3>
+        <h3 className="jewel-price">$12,000,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+      </div>
+      <div className="image">
+        <img src={Pendantz10} alt="Snowboarder Pendant 14k White Gold" />
+        <h3 className="jewel-name">Snowboarder Pendant 14k White Gold</h3>
+        <h3 className="jewel-price">$10,000,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Seven} alt="S105B 6 PIECE INVISIBLE HAND SET DIAMOND GRILL" />
-        <h3 className="jewel-name">S105B 6 PIECE INVISIBLE HAND SET DIAMOND GRILL</h3>
-        <h3 className="jewel-price">$6,050,00</h3>
+        <img src={Pendantz11} alt="Diamond Evil Cat Pendant - 14k White Gold" />
+        <h3 className="jewel-name">Diamond Evil Cat Pendant - 14k White Gold</h3>
+        <h3 className="jewel-price">$10,000,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+      </div>
+      <div className="image">
+        <img src={Pendantz12} alt="Grizzly Bear Pendant 14k White Gold" />
+        <h3 className="jewel-name">Grizzly Bear Pendant 14k White Gold</h3>
+        <h3 className="jewel-price">$10,000,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Eight} alt="C1532-1 16 TEETH PRONG BLOCK SET GRILL" />
-        <h3 className="jewel-name">C1532-1 16 TEETH PRONG BLOCK SET GRILL</h3>
-        <h3 className="jewel-price">$4,000,00</h3>
+        <img src={Pendantz13} alt="Africa Pendant 14k Yellow Gold" />
+        <h3 className="jewel-name">Africa Pendant 14k Yellow Gold</h3>
+        <h3 className="jewel-price">$10,000,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+      </div>
+      <div className="image">
+        <img src={Pendantz14} alt="King Crown Lion Pendant 14k White Gold" />
+        <h3 className="jewel-name">King Crown Lion Pendant 14k White Gold</h3>
+        <h3 className="jewel-price">$10,000,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
-        <img src={Nine} alt="JDG69-4TH WARD 6 PIECE 14K WHITE GOLD PRINCESS CUT DIAMOND GRILL" />
-        <h3 className="jewel-name">JDG69-4TH 14K PRINCESS CUT DIAMOND</h3>
-        <h3 className="jewel-price">$2,742,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
-      </div>
-      <div className="image">
-        <img src={Ten} alt="JDG36-YIELD" />
-        <h3 className="jewel-name">JDG36-YIELD</h3>
-        <h3 className="jewel-price">$5,600,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
-      </div>
-      <div className="image">
-        <img src={Eleven} alt="JDG32-LIL JON" />
-        <h3 className="jewel-name">JDG32-LIL JON</h3>
-        <h3 className="jewel-price">$7,800,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
-      </div>
-      <div className="image">
-        <img src={Thirt} alt="A-JD103 16 TEETH HAND PRONG SET PERM CUT DIAMOND GRILL" />
-        <h3 className="jewel-name">A-JD103 16 TEETH PERM CUT DIAMOND GRILL</h3>
-        <h3 className="jewel-price">$8,800,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <img src={Pendantz15} alt="Bubbly 3 Row Cross Pendant 14k Yellow Gold" />
+        <h3 className="jewel-name">Bubbly 3 Row Cross Pendant 14k Yellow Gold</h3>
+        <h3 className="jewel-price">$10,000,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
     </div>
   );

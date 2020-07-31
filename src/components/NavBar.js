@@ -22,10 +22,13 @@ function NavBar(props) {
           <li className="nav-home">
             <Link to="/watchz">Watchz</Link>
           </li>
-          <li className="nav-about">
+          <li className="nav-home">
+            <Link to="/pendantz">Pendantz</Link>
+          </li>
+          <li className="nav-home">
             <Link to="/about">About</Link>
           </li>
-          <li className="cart">
+          <li className="nav-home">
             <Link to="/cart">
               <ion-icon name="basket-outline"></ion-icon>Cart <span>0</span>
             </Link>

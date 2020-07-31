@@ -84,13 +84,13 @@ const Home = (props) => {
       </div>
       <div className="image">
         <img src={Ten} alt="JDG36-YIELD" />
-        <h3 className="jewel-name">JDG36-YIELD</h3>
+        <h3 className="jewel-name">JDG36</h3>
         <h3 className="jewel-price">$5,600,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Eleven} alt="JDG32-LIL JON" />
-        <h3 className="jewel-name">JDG32-LIL JON</h3>
+        <h3 className="jewel-name">JDG32</h3>
         <h3 className="jewel-price">$7,800,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>

@@ -54,10 +54,14 @@ li a {
 }
 
 
+
 .nav-home a {
-  background-color: royalblue;
+  background-color: rgb(5, 5, 5);
   color: white;
   font-weight: 600;
+  font-size: 1.5em;
+  border-radius: 5px;
+  font-family: 'Lexend Zetta', sans-serif;
 }
 
 .nav-about a {
