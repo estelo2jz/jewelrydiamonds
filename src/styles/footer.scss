@@ -96,6 +96,11 @@
   display: inline-block;
 }
 
+img {
+  height: 40px;
+  width: 80px;
+}
+
 @media (max-width: 63.9375em) {
   .footer__logo {
     margin-bottom: 1.875rem;
