@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  height: 100vh;
+  margin: 5px;
+  
+  .image {
+    background-color: #001f3f;
+    height: 500px;
+    img {
+      width: 350px;
+      height: 350px;
+      overflow: hidden;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    .jewel-name {
+      font-size: 1em;
+      padding: 5px;
+      color: white;
+    }
+
+    .jewel-price {
+      font-size: 1em;
+      padding: 10px;
+      color: white;
+    }
+
+    .addToCart {
+      padding: 5px;
+      background-color: white;
+      border-radius: 5px;
+      color: black;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}
