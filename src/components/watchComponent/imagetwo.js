@@ -6,7 +6,7 @@ import Watch2 from '../../images/watchz/watch2/watch2.jpg';
 import Watch3 from '../../images/watchz/watch2/watch3.jpg';
 import Watch4 from '../../images/watchz/watch2/watch4.jpg';
 
-class Images1 extends Component {   
+class ImageTwo extends Component {   
 
 
   state = {
@@ -49,4 +49,4 @@ class Images1 extends Component {
     );
   }
 }
-export default Images1;
+export default ImageTwo;

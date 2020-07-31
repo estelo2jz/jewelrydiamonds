@@ -18,6 +18,8 @@ import ImageFourteen from './watchComponent/imagefourteen';
 import ImageFifteen from './watchComponent/imagefifteen';
 import ImageSixteen from './watchComponent/imagesixteen';
 import ImageSeventeen from './watchComponent/imageseventeen';
+import ImageEighteen from './watchComponent/imageighteen';
+import ImageNineteen from './watchComponent/imagenineteen';
 
 const Watchz = (props) => {
   console.log(props);
@@ -171,14 +173,22 @@ const Watchz = (props) => {
           <button className="button">Add to Cart</button>
         </a>
       </div>
-      {/* <div className="image">
-        <img src={Watchz18} alt="CW-00018 CUSTOM WATCH" />
+      <div className="image">
+        <ImageEighteen />
         <h3 className="jewel-name">CW-00018 CUSTOM WATCH</h3>
         <h3 className="jewel-price">$19,000,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
           <button className="button">Add to Cart</button>
         </a>
-      </div> */}
+      </div>
+      <div className="image">
+        <ImageNineteen />
+        <h3 className="jewel-name">CW-00018 CUSTOM WATCH</h3>
+        <h3 className="jewel-price">$19,000,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,20 @@
 import React from 'react';
-
 import '../styles/main.scss';
+
+import GrillOne from '../components/grillComponent/imageone';
+import GrillTwo from '../components/grillComponent/imagetwo';
+import GrillThree from '../components/grillComponent/imagethree';
+import GrillFour from '../components/grillComponent/imagefour';
+import GrillFive from '../components/grillComponent/imagefive';
+import GrillSix from '../components/grillComponent/imagesix';
+import GrillSeven from '../components/grillComponent/imageseven';
+import GrillEight from '../components/grillComponent/imageight';
+import GrillNine from '../components/grillComponent/imagenine';
+import GrillTen from '../components/grillComponent/imageten';
+import GrillEleven from '../components/grillComponent/imageleven';
+import GrillTwelve from '../components/grillComponent/imagetwelve';
+import GrillThirteen from '../components/grillComponent/imagethirteen';
+import GrillFourteen from '../components/grillComponent/imagefourteen';
 
 import One from '../images/grills/one.jpg'
 import Two from '../images/grills/two.jpg'
@@ -28,7 +42,7 @@ const Home = (props) => {
   return (
     <div className="para-container">
       <div className="image para-quote">
-        <img src={One} alt="GOLDTEETH S505 INVISIBLE SET EMERALD CUT DIAMOND" />
+        <GrillOne />
         <h3 className="jewel-name">S505 INVISIBLE SET EMERALD CUT DIAMOND</h3>
         <h3 className="jewel-price">$4,000,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -36,7 +50,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Two} alt="S161506-3A CUSTOM SKY BLUE DIAMOND HANDSET" />
+        <GrillTwo />
         <h3 className="jewel-name">S161506-3A SKY BLUE DIAMOND HANDSET</h3>
         <h3 className="jewel-price">$24,000,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -44,7 +58,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Three} alt="JDG73-ICE SKATE 8 PIECE INVISIBLE HANDSET DIAMOND " />
+        <GrillThree />
         <h3 className="jewel-name">JDG73-ICE SKATE 8 PIECE INVISIBLE DIAMOND</h3>
         <h3 className="jewel-price">$5,162,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -52,7 +66,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Four} alt="JDG65-BLUE MAGIC 4 ROW HAND SET DIAMOND" />
+        <GrillFour />
         <h3 className="jewel-name">JDG65-BLUE MAGIC 4 ROW HANDSET</h3>
         <h3 className="jewel-price">$11,200,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -60,7 +74,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Fift} alt="S161506-1B INVISIBLE HANDSET DIAMOND" />
+        <GrillFive />
         <h3 className="jewel-name">S161506-1B INVISIBLE HANDSET</h3>
         <h3 className="jewel-price">$6,4000,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -68,7 +82,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Sixth} alt="S2530032-A 16 GOLD TEETH BLOCK SET" />
+        <GrillSix />
         <h3 className="jewel-name">S2530032-A 16 GOLD TEETH BLOCK SET</h3>
         <h3 className="jewel-price">$6,000,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -76,7 +90,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Seven} alt="S105B 6 PIECE INVISIBLE HAND SET DIAMOND" />
+        <GrillSeven />
         <h3 className="jewel-name">S105B 6 PIECE INVISIBLE HAND SET DIAMOND</h3>
         <h3 className="jewel-price">$6,050,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -84,7 +98,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Eight} alt="C1532-1 16 TEETH PRONG BLOCK SET" />
+        <GrillEight />
         <h3 className="jewel-name">C1532-1 16 TEETH PRONG BLOCK SET</h3>
         <h3 className="jewel-price">$4,000,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -92,7 +106,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Nine} alt="JDG69-4TH WARD 6 PIECE 14K WHITE GOLD PRINCESS CUT DIAMOND" />
+        <GrillNine />
         <h3 className="jewel-name">JDG69-4TH 14K PRINCESS CUT DIAMOND</h3>
         <h3 className="jewel-price">$2,742,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -100,7 +114,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Ten} alt="JDG36-YIELD" />
+        <GrillTen />
         <h3 className="jewel-name">JDG36</h3>
         <h3 className="jewel-price">$5,600,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -108,7 +122,7 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Eleven} alt="JDG32-LIL JON" />
+        <GrillEleven />
         <h3 className="jewel-name">JDG32</h3>
         <h3 className="jewel-price">$7,800,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
@@ -116,7 +130,23 @@ const Home = (props) => {
         </a>
       </div>
       <div className="image para-quote">
-        <img src={Thirt} alt="A-JD103 16 TEETH HAND PRONG SET PERM CUT DIAMOND" />
+        <GrillTwelve />
+        <h3 className="jewel-name">A-JD103 16 TEETH PERM CUT DIAMOND</h3>
+        <h3 className="jewel-price">$8,800,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
+      </div>
+      <div className="image para-quote">
+        <GrillThirteen />
+        <h3 className="jewel-name">A-JD103 16 TEETH PERM CUT DIAMOND</h3>
+        <h3 className="jewel-price">$8,800,00</h3>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
+      </div>
+      <div className="image para-quote">
+        <GrillFourteen />
         <h3 className="jewel-name">A-JD103 16 TEETH PERM CUT DIAMOND</h3>
         <h3 className="jewel-price">$8,800,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">

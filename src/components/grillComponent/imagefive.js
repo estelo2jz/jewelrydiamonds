@@ -1,15 +1,18 @@
 
 import React, { Component } from 'react';
 
-import Watch1 from '../../images/watchz/watch3/watch1.jpg';
-import Watch2 from '../../images/watchz/watch3/watch2.jpg';
+import GrillOne from '../../images/grills/grill5/grill1.jpg';
+import GrillTwo from '../../images/grills/grill5/grill2.jpg';
+import GrillThree from '../../images/grills/grill5/grill3.jpg';
+import GrillFour from '../../images/grills/grill5/grill4.jpg';
+import GrillFive from '../../images/grills/grill5/grill5.jpg';
 
-class ImageThree extends Component {   
+class ImageFive extends Component {   
 
 
   state = {
       index: 0, 
-      picList: [Watch1, Watch2]
+      picList: [GrillOne, GrillTwo, GrillThree, GrillFour, GrillFive]
     }
     
   onClickNext= () => {
@@ -47,4 +50,4 @@ class ImageThree extends Component {
     );
   }
 }
-export default ImageThree;
+export default ImageFive;
