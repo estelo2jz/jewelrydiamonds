@@ -26,6 +26,14 @@ header {
   align-items: center;
   border-radius: 4px;
   background-color: #eceff1;
+
+  .navbar-heading {
+    font-size: 1.5em;
+    padding: 5PX;
+    h2 {
+      font-family: 'Lobster', cursive;
+    }
+  }
 }
 
 .navbar__link {

@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
   <nav className="navbar">
+    <h1 className="navbar-heading"><h2>Ice Ice Diamond Drip</h2></h1>
     <NavLink
       exact
       activeClassName="navbar__link--active"

@@ -32,7 +32,7 @@ const Home = (props) => {
         <img src={Chainz1} alt="1JDN090517 - DIAMOND STAR CHAIN" />
         <h3 className="jewel-name">1JDN090517 - DIAMOND STAR CHAIN</h3>
         <h3 className="jewel-price">$9,128,00</h3>
-        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('Chainz1')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
       <div className="image">
         <img src={Chainz2} alt="1JDN1611291 - DIAMOND CHAIN" />
