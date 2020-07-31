@@ -64,12 +64,18 @@
 
 
 @media(max-width: 500px) {
-  .container {
+  .para-container {
     display: grid;
-    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 
   .image {
     font-size: 0.7em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 }
