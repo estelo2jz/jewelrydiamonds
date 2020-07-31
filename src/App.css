@@ -10,3 +10,26 @@
 }
 
 @import './styles/main.scss';
+
+
+@media(max-width: 500px) {
+  nav h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: center;
+  }
+
+  .sm-hide {
+    display: none;
+    width: 200px;
+  }
+
+  .product,
+  .product-header {
+    justify-content: center;
+  }
+
+  .basketTotalContainer {
+    padding-right: 8%;
+  }
+}

@@ -82,3 +82,26 @@ li a {
   cursor: pointer;
   text-decoration: none;
 }
+
+
+@media(max-width: 500px) {
+
+  header {
+    height: 300px;
+  }
+  ul {
+    display: grid;
+    font-size: 0.6em;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 120px;
+    grid-row-gap: 10px;
+    height: 200px;
+
+    li {
+      padding: 10px;
+    }
+  }
+}
