@@ -36,7 +36,7 @@ const Home = (props) => {
   // }
 
   return (
-    <div className="container">
+    <div className="para-container">
       <div className="image">
         <img src={Watchz1} alt="CW-0001 CUSTOM WATCH" />
         <h3 className="jewel-name">CW-0001 CUSTOM WATCH</h3>

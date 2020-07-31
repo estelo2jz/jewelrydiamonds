@@ -27,7 +27,7 @@ const Home = (props) => {
   // }
 
   return (
-    <div className="container">
+    <div className="para-container">
       <div className="image">
         <img src={Chainz1} alt="1JDN090517 - DIAMOND STAR CHAIN" />
         <h3 className="jewel-name">1JDN090517 - DIAMOND STAR CHAIN</h3>

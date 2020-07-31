@@ -1,15 +1,9 @@
-.container {
+.para-container {
+  padding: 3em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  grid-row-gap: 5px;
-  grid-column-gap: 5px;
-  height: 100vh;
-  margin: 5px;
-
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   .image {
-    background-color: #dde2e7;
     height: 500px;
     img {
       width: 350px;
@@ -17,6 +11,7 @@
       overflow: hidden;
       margin: 20px;
       padding: 20px;
+      box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
     }
 
     .jewel-name {
@@ -66,6 +61,7 @@
     }
   }
 }
+
 
 @media(max-width: 500px) {
   .container {

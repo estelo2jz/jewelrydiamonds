@@ -31,7 +31,7 @@ const Home = (props) => {
   // }
 
   return (
-    <div className="container">
+    <div className="para-container">
       <div className="image">
         <img src={Pendantz1} alt="Jesus Of Nazareth Pendant 14k Yellow Gold" />
         <h3 className="jewel-name">Jesus Of Nazareth Pendant 14k Yellow Gold</h3>
