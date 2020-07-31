@@ -36,91 +36,121 @@ const Home = (props) => {
         <img src={Pendantz1} alt="Jesus Of Nazareth Pendant 14k Yellow Gold" />
         <h3 className="jewel-name">Jesus Of Nazareth Pendant 14k Yellow Gold</h3>
         <h3 className="jewel-price">$25,000,00</h3>
-        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz2} alt="Striped Mane Lion Pendant - 14k Yellow Gold" />
         <h3 className="jewel-name">Striped Mane Lion Pendant - 14k Yellow Gold</h3>
         <h3 className="jewel-price">$20,000,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz3} alt="Jesus Piece Pendant 14k Yellow Gold " />
         <h3 className="jewel-name">Jesus Piece Pendant 14k Yellow Gold</h3>
         <h3 className="jewel-price">$16,000,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz4} alt="Jesus Piece Pendant 14k Rose Gold " />
         <h3 className="jewel-name">Jesus Piece Pendant 14k Rose Gold </h3>
         <h3 className="jewel-price">$16,000,00</h3>
-        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz5} alt="Jesus Piece Lg Pendant 14k Yellow Gold" />
         <h3 className="jewel-name">Jesus Piece Lg Pendant 14k Yellow Gold</h3>
         <h3 className="jewel-price">$16,000,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz6} alt="Ghost Pendant 14k White Gold" />
         <h3 className="jewel-name">Ghost Pendant 14k White Gold</h3>
         <h3 className="jewel-price">$15,000,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz7} alt="Hamsa Pendant 14k Yellow Gold" />
         <h3 className="jewel-name">Hamsa Pendant 14k Yellow Gold</h3>
         <h3 className="jewel-price">$15,000,00</h3>
-        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz8} alt="Full Body Black Panther Pendant 14k White Gold" />
         <h3 className="jewel-name">Full Body Black Panther Pendant 14k White Gold</h3>
         <h3 className="jewel-price">$12,500,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz9} alt="Prayer Hands Pendant 14k Yellow Gold" />
         <h3 className="jewel-name">Prayer Hands Pendant 14k Yellow Gold</h3>
         <h3 className="jewel-price">$12,000,00</h3>
-        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz10} alt="Snowboarder Pendant 14k White Gold" />
         <h3 className="jewel-name">Snowboarder Pendant 14k White Gold</h3>
         <h3 className="jewel-price">$10,000,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz11} alt="Diamond Evil Cat Pendant - 14k White Gold" />
         <h3 className="jewel-name">Diamond Evil Cat Pendant - 14k White Gold</h3>
         <h3 className="jewel-price">$10,000,00</h3>
-        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz12} alt="Grizzly Bear Pendant 14k White Gold" />
         <h3 className="jewel-name">Grizzly Bear Pendant 14k White Gold</h3>
         <h3 className="jewel-price">$10,000,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz13} alt="Africa Pendant 14k Yellow Gold" />
         <h3 className="jewel-name">Africa Pendant 14k Yellow Gold</h3>
         <h3 className="jewel-price">$10,000,00</h3>
-        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz14} alt="King Crown Lion Pendant 14k White Gold" />
         <h3 className="jewel-name">King Crown Lion Pendant 14k White Gold</h3>
         <h3 className="jewel-price">$10,000,00</h3>
-        <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
       <div className="image">
         <img src={Pendantz15} alt="Bubbly 3 Row Cross Pendant 14k Yellow Gold" />
         <h3 className="jewel-name">Bubbly 3 Row Cross Pendant 14k Yellow Gold</h3>
         <h3 className="jewel-price">$10,000,00</h3>
-        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">Add to Cart</a>
+        <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
+          <button className="button">Add to Cart</button>
+        </a>
       </div>
     </div>
   );
