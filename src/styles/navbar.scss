@@ -1,73 +1,9 @@
 header {
-  background-image: url('../images/bg1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
   height: 150px;
   position: relative;
-
-}
-
-.overlay {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  height: 100%;
-  right: 0;
-  bottom: 0;
-  padding: 0 !important;
-  margin: 0 !important;
-  background-color: rgba(10, 10, 10, 0.3);
-}
-
-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 50px 60px 0 60px;
-}
-
-h2 {
-  color: white;
-  font-size: 2em;
-  font-weight: 600;
-  font-family: 'Orbitron', sans-serif;
-}
-
-nav li {
-  list-style: none;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-li a {
-  padding: 5px;
-  background-color: #fff;
-  text-decoration: none;
-}
-
-
-
-.nav-home a {
-  background-color: rgb(5, 5, 5);
-  color: white;
-  font-weight: 600;
-  font-size: 1.5em;
-  border-radius: 5px;
-  font-family: 'Lexend Zetta', sans-serif;
-}
-
-.nav-about a {
-  background-color: royalblue;
-  color: white;
-  font-weight: 600;
 }
 
 .cart ion-icon {
@@ -84,6 +20,36 @@ li a {
 }
 
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #eceff1;
+}
+
+.navbar__link {
+  margin: 1em;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .3em;
+  text-indent: .3em;
+  color: #181818;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar__link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar__link--active {
+  border-bottom: 3px solid #0a0a0a;
+  transition: border-bottom .5s ease-in-out;
+}
+
+
 @media(max-width: 500px) {
 
   header {
@@ -97,8 +63,6 @@ li a {
     align-content: center;
     text-align: center;
   }
-
-
 }
 
 @media(max-width: 1000px) {

@@ -1,42 +1,45 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-import '../styles/navbar.scss';
+const Navbar = () => (
+  <nav className="navbar">
+    <NavLink
+      exact
+      activeClassName="navbar__link--active"
+      className="navbar__link"
+      to="/"
+    >
+      Grillz
+    </NavLink>
+    <NavLink
+      activeClassName="navbar__link--active"
+      className="navbar__link"
+      to="/chainz"
+    >
+      Chainz
+    </NavLink>
+    <NavLink
+      activeClassName="navbar__link--active"
+      className="navbar__link"
+      to="/watchz"
+    >
+      Watchz
+    </NavLink>
+    <NavLink
+      activeClassName="navbar__link--active"
+      className="navbar__link"
+      to="/pendantz"
+    >
+      Pendantz
+    </NavLink>
+    <NavLink
+      activeClassName="navbar__link--active"
+      className="navbar__link"
+      to="/cart"
+    >
+      Cart <span>0</span>
+    </NavLink>
+  </nav>
+);
 
-
-function NavBar(props) {
-  console.log(props)
-  
-  return (
-    <header>
-      <div className="overlay"></div>
-      <nav>
-        {/* <h2>FAKE GUCCI STORE</h2> */}
-        <ul>
-          <li className="nav-home">
-            <Link to="/">Grillz</Link>
-          </li>
-          <li className="nav-home">
-            <Link to="/chainz">Chainz</Link>
-          </li>
-          <li className="nav-home">
-            <Link to="/watchz">Watchz</Link>
-          </li>
-          <li className="nav-home">
-            <Link to="/pendantz">Pendantz</Link>
-          </li>
-          <li className="nav-home">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="nav-home">
-            <Link to="/cart">
-              <ion-icon name="basket-outline"></ion-icon>Cart <span>0</span>
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
-
-export default NavBar;
+export default Navbar;
