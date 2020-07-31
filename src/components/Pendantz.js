@@ -80,8 +80,6 @@ const Home = (props) => {
         <h3 className="jewel-price">$12,500,00</h3>
         <a onClick={() => props.addBasket('GucciDisk')} className="addToCart cart1" href="#">Add to Cart</a>
       </div>
-
-
       <div className="image">
         <img src={Pendantz9} alt="Prayer Hands Pendant 14k Yellow Gold" />
         <h3 className="jewel-name">Prayer Hands Pendant 14k Yellow Gold</h3>

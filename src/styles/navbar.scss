@@ -89,14 +89,38 @@ li a {
   header {
     height: 300px;
   }
-  ul {
-    display: grid;
-    font-size: 0.6em;
-    grid-template-columns: 1fr;
+
+  nav {
+    display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-left: 120px;
+    text-align: center;
+  }
+
+
+}
+
+@media(max-width: 1000px) {
+
+  header {
+    height: 300px;
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+    }
+  }
+  ul {
+    display: grid;
+    font-size: 0.6em;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     grid-row-gap: 10px;
     height: 200px;
 
