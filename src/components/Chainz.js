@@ -112,7 +112,7 @@ const Chainz = (props) => {
         <h3 className="jewel-name">1N170530 - LADY DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$8,544,00</h3>
         <a onClick={() => props.addBasket('OriginalGucci')} className="addToCart cart1" href="#">
-          <button className="cart-button">Add to Cart</button>
+          <button className="button">Add to Cart</button>
         </a>      
       </div>
       <div className="image">

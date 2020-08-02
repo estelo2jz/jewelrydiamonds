@@ -33,11 +33,10 @@ const Navbar = () => (
       Pendantz
     </NavLink>
     <NavLink
-      activeClassName="navbar__link--active"
       className="navbar__link"
       to="/cart"
     >
-      Cart <span>0</span>
+      <h3 className="nav-cart">Cart <span>0</span></h3>
     </NavLink>
   </nav>
 );
