@@ -1,36 +1,43 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+// import Logo from './logo';
+// import Header from './header';
+
 const Navbar = () => (
-  <nav className="navbar">    
+  <nav className="navbar"> 
+    {/* <div>
+      <Logo />
+      <Header />
+    </div>    */}
     <NavLink
       exact
       activeClassName="navbar__link--active"
       className="navbar__link"
       to="/"
     >
-      Grillz
+      <a>Grillz</a>
     </NavLink>
     <NavLink
       activeClassName="navbar__link--active"
       className="navbar__link"
       to="/chainz"
     >
-      Chainz
+      <a>Chainz</a>
     </NavLink>
     <NavLink
       activeClassName="navbar__link--active"
       className="navbar__link"
       to="/watchz"
     >
-      Watchz
+      <a>Watchz</a>
     </NavLink>
     <NavLink
       activeClassName="navbar__link--active"
       className="navbar__link"
       to="/pendantz"
     >
-      Pendantz
+      <a>Pendantz</a>
     </NavLink>
     <NavLink
       className="navbar__link"
