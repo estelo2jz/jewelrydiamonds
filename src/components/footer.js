@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from '../images/logo.png'
+import LogoFooter from '../images/logo.png'
 import '../styles/footer.scss';
 
 export default class footer extends Component {
@@ -8,7 +8,7 @@ export default class footer extends Component {
       <footer class="footer">
         <div class="container">
           <a class="footer__logo" href="#">
-              <img src={Logo} />
+              <img src={LogoFooter} />
           </a>
           <div class="footer__social">
             <a href="https://www.facebook.com/" target="_blank">
@@ -41,7 +41,7 @@ export default class footer extends Component {
           </div>
       
           <div class="footer__cta">
-            <a href="#" class="button">Request Invite</a>
+            <a href="#" class="button">Request Custom</a>
           </div>
       
           <div class="footer__copyright">

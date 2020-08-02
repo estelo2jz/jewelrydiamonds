@@ -1,11 +1,30 @@
-header {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  height: 150px;
-  position: relative;
+// logo styles
+.logo-container {
+  background-color: #2d314d;
+  padding: 10px;
+
+  img {
+    height: 10%;
+    width: 10%;
+  }
 }
 
+
+// Header styles
+.header-container {
+  background-color: hsl(233, 26%, 24%);
+  color: white;
+  padding: 10px;
+
+  h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+
+  }
+  
+}
+
+// cart styles
 .cart ion-icon {
   vertical-align: bottom;
   font-size: 20px;
@@ -93,4 +112,7 @@ header {
   .navbar__link--active {
     border-bottom: 1px solid #ffffff;
   }  
+  .header-container {
+    font-size: 10px;
+  }
 }
