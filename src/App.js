@@ -9,13 +9,13 @@ import Cart from './components/Cart';
 import Footer from './components/footer';
 import Logo from './components/logo.js';
 import Header from './components/header';
-// import { Provider } from 'react-redux';
-// import store from './store';
+import { Provider } from 'react-redux';
+import store from './store';
 import { BrowserRouter as Router, Route, Switch } from  'react-router-dom';
 
 function App() {
   return (
-    // <Provider store={store}>
+    <Provider store={store}>
       <div className="App">
         <Router>
           <Logo />
@@ -31,7 +31,7 @@ function App() {
           <Footer />
         </Router>
       </div>
-    // </Provider>
+    </Provider>
   );
 }
 

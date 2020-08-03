@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
+import { connect } from 'react';
 import { getNumbers } from '../actions/getAction';
 import { NavLink } from 'react-router-dom';
 
+// import Logo from './logo';
+// import Header from './header';
 
-function NavBar(props) {
-  console.log(props)
-
+function Navbar(props) {
   useEffect(() => {
     getNumbers();
   }, []);
-  
   return (
     <nav className="navbar"> 
       {/* <div>
@@ -60,4 +59,4 @@ const mapStateToProps = state => ({
   basketProps: state.basketState
 })
 
-export default connect(mapStateToProps, { getNumbers })(NavBar);
+export default connect(mapStateToProps, { getNumbers })(Navbar);

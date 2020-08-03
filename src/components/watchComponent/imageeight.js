@@ -42,8 +42,10 @@ class ImageEight extends Component {
       <div className="images-container">
         <img src={this.state.picList[this.state.index]} style={{"maxHeight":"0%",}} />
         <br/>
-        <button style={{"fontSize":"18px"}} onClick={this.onClickPrevious}> Prev </button>
-        <button style={{"margin-left":"5px", "fontSize":"18px"}} onClick={this.onClickNext}> Next </button>
+        <div className="images-button">
+          <button style={{"fontSize":"18px"}} onClick={this.onClickPrevious}> Prev </button>
+          <button style={{"margin-left":"5px", "fontSize":"18px"}} onClick={this.onClickNext}> Next </button>
+        </div>
       </div>
     );
   }
