@@ -7,7 +7,7 @@ export default class Footer extends Component {
     return (
       <footer className="footer">
         <div className="container">
-          <a className="footer__logo" href="/#">
+          <a className="footer__logo" href="#">
               <img src={LogoFooter} alt="logo" />
           </a>
           <div className="footer__social">
@@ -29,26 +29,26 @@ export default class Footer extends Component {
           </div>
       
           <div className="footer__links col1">
-            <a href="/#">About Us</a>
-            <a href="/#">Contact</a>
-            <a href="/#">Blog</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
           </div>
       
           <div className="footer__links col2">
-            <a href="/#">Careers</a>
-            <a href="/#">Support</a>
-            <a href="/#">Privacy Policy</a>
+            <a href="#">Careers</a>
+            <a href="#">Support</a>
+            <a href="#">Privacy Policy</a>
           </div>
       
           <div className="footer__cta">
-            <a href="/#" className="button">Request Custom</a>
+            <a href="#" className="button">Request Custom</a>
           </div>
       
           <div className="footer__copyright">
             &copy; Ice Ice Diamond Drip. All Rights Reserved.
           </div>
         </div>    
-     </footer>
+     </footer>  
     )
   }
 }
