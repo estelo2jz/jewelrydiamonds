@@ -2,6 +2,7 @@
   justify-content: space-around;
   margin: 0 auto;
   margin-top: 50px;
+  height: 50%;
 }
 
 .product-containers ion-icon {
@@ -31,6 +32,7 @@
   width: 15%;
   display: flex;
   align-items: center;
+  font-family: 'Source Code Pro', monospace !important; 
 }
 
 .quantity {
@@ -47,6 +49,10 @@
   h4 {
     margin-left: 20px;
   }
+}
+
+.total-price {
+  font-family: 'Source Code Pro', monospace;
 }
 
 .test-container {
@@ -77,6 +83,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+  font-family: 'Bitter', serif;
 }
 
 .product ion-icon {
@@ -104,8 +111,10 @@
 
 .basketTotalTitle {
   width: 30%;
+  font-family: 'Bitter', serif;
 }
 
 .basketTotal {
+  font-family: 'Source Code Pro', monospace;
   width: 10%;
 }
