@@ -3,25 +3,25 @@ import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 
 function Cart({basketProps}) {
-  console.log(basketProps);
+  // console.log(basketProps);
 
   let productsInCart = [];
  
   Object.keys(basketProps.products).forEach( function(item) {
-    console.log(item);
-    console.log(basketProps.products[item].inCart);
+    // console.log(item);
+    // console.log(basketProps.products[item].inCart);
     if(basketProps.products[item].inCart) {
       productsInCart.push(basketProps.products[item])
     }
-    console.log(productsInCart);
+    // console.log(productsInCart);
   })
 
   const productImages = [];
 
   productsInCart = productsInCart.map((product, index) => {
     // We have access to this name, price, inCart using the map() statement
-    console.log("My product is ");
-    console.log(product);
+    // console.log("My product is ");
+    // console.log(product);
     // that what were doing in down here
     return (
       // Frangment is just a placeholder rather using a div
