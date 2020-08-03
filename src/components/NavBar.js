@@ -23,28 +23,28 @@ function NavBar(props) {
         className="navbar__link"
         to="/"
       >
-        <a>Grillz</a>
+        <p>Grillz</p>
       </NavLink>
       <NavLink
         activeClassName="navbar__link--active"
         className="navbar__link"
         to="/chainz"
       >
-        <a>Chainz</a>
+        <p>Chainz</p>
       </NavLink>
       <NavLink
         activeClassName="navbar__link--active"
         className="navbar__link"
         to="/watchz"
       >
-        <a>Watchz</a>
+        <p>Watchz</p>
       </NavLink>
       <NavLink
         activeClassName="navbar__link--active"
         className="navbar__link"
         to="/pendantz"
       >
-        <a>Pendantz</a>
+        <p>Pendantz</p>
       </NavLink>
       <NavLink
         className="navbar__link"

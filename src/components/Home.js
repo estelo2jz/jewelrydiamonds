@@ -34,7 +34,7 @@ const Home = (props) => {
         <GrillOne />
         <h3 className="jewel-name">S505 INVISIBLE SET EMERALD</h3>
         <h3 className="jewel-price">$4,000,00</h3>
-        <a onClick={() => props.addBasket('S505')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('S505')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -42,7 +42,7 @@ const Home = (props) => {
         <GrillTwo />
         <h3 className="jewel-name">S161506-3A SKY BLUE</h3>
         <h3 className="jewel-price">$24,000,00</h3>
-        <a onClick={() => props.addBasket('S161506')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('S161506')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -50,7 +50,7 @@ const Home = (props) => {
         <GrillThree />
         <h3 className="jewel-name">JDG73-ICE SKATE 8 PIECE</h3>
         <h3 className="jewel-price">$5,162,00</h3>
-        <a onClick={() => props.addBasket('JDG73')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDG73')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -58,7 +58,7 @@ const Home = (props) => {
         <GrillFour />
         <h3 className="jewel-name">JDG65-BLUE MAGIC 4 ROW</h3>
         <h3 className="jewel-price">$11,200,00</h3>
-        <a onClick={() => props.addBasket('JDG65')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDG65')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -66,7 +66,7 @@ const Home = (props) => {
         <GrillFive />
         <h3 className="jewel-name">S161506-1B INVISIBLE</h3>
         <h3 className="jewel-price">$6,400,00</h3>
-        <a onClick={() => props.addBasket('S161506')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('S161506')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -74,7 +74,7 @@ const Home = (props) => {
         <GrillSix />
         <h3 className="jewel-name">S2530032-A 16 GOLD TEETH</h3>
         <h3 className="jewel-price">$6,000,00</h3>
-        <a onClick={() => props.addBasket('S2530032')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('S2530032')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -82,7 +82,7 @@ const Home = (props) => {
         <GrillSeven />
         <h3 className="jewel-name">S105B 6 PIECE INVISIBLE</h3>
         <h3 className="jewel-price">$6,050,00</h3>
-        <a onClick={() => props.addBasket('S105B')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('S105B')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -90,7 +90,7 @@ const Home = (props) => {
         <GrillEight />
         <h3 className="jewel-name">C1532-1 16 TEETH PRONG</h3>
         <h3 className="jewel-price">$4,000,00</h3>
-        <a onClick={() => props.addBasket('C1532')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('C1532')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -98,7 +98,7 @@ const Home = (props) => {
         <GrillNine />
         <h3 className="jewel-name">JDG69-4TH 14K PRINCESS CUT</h3>
         <h3 className="jewel-price">$2,742,00</h3>
-        <a onClick={() => props.addBasket('JDG69')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDG69')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -106,7 +106,7 @@ const Home = (props) => {
         <GrillTen />
         <h3 className="jewel-name">JDG36</h3>
         <h3 className="jewel-price">$5,600,00</h3>
-        <a onClick={() => props.addBasket('JDG36')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDG36')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -114,7 +114,7 @@ const Home = (props) => {
         <GrillEleven />
         <h3 className="jewel-name">JDG32</h3>
         <h3 className="jewel-price">$7,800,00</h3>
-        <a onClick={() => props.addBasket('JDG32')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDG32')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -122,7 +122,7 @@ const Home = (props) => {
         <GrillTwelve />
         <h3 className="jewel-name">JD103</h3>
         <h3 className="jewel-price">$8,800,00</h3>
-        <a onClick={() => props.addBasket('JD103')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JD103')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -130,7 +130,7 @@ const Home = (props) => {
         <GrillThirteen />
         <h3 className="jewel-name">JD102</h3>
         <h3 className="jewel-price">$7,800,00</h3>
-        <a onClick={() => props.addBasket('JD102')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JD102')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -138,7 +138,7 @@ const Home = (props) => {
         <GrillFourteen />
         <h3 className="jewel-name">JD101</h3>
         <h3 className="jewel-price">$9,800,00</h3>
-        <a onClick={() => props.addBasket('JD101')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JD101')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>

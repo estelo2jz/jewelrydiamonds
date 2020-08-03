@@ -30,7 +30,7 @@ function Cart({basketProps}) {
           <div className="test">
             <div className="product">
               <ion-icon name="close-circle"></ion-icon>
-              <img src={productImages[index]} />
+              <img src={productImages[index]} alt="productImages" />
               <span className="sm-hide">{product.name}</span>
             </div>
             <div className="price sm-hide">${product.price},00</div>

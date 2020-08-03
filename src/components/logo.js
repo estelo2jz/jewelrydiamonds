@@ -4,7 +4,7 @@ import LogoNav from '../images/logo.png';
 const Logo = () => {
   return (
     <div className="logo-container">
-      <img src={LogoNav} />
+      <img src={LogoNav} alt="logonav" />
     </div>
   )
 }

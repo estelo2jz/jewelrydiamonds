@@ -33,7 +33,7 @@ const Chainz = (props) => {
         <ChainOne />
         <h3 className="jewel-name">JDN090517 - DIAMOND STAR CHAIN</h3>
         <h3 className="jewel-price">$9,128,00</h3>
-        <a onClick={() => props.addBasket('JDN090517')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN090517')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>
       </div>
@@ -41,7 +41,7 @@ const Chainz = (props) => {
         <ChainTwo />
         <h3 className="jewel-name">JDN1611291 - DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$12,580,00</h3>
-        <a onClick={() => props.addBasket('JDN1611291')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN1611291')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -49,7 +49,7 @@ const Chainz = (props) => {
         <ChainThree />
         <h3 className="jewel-name">JDN170119 - DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$15,027,00</h3>
-        <a onClick={() => props.addBasket('JDN170119')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN170119')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -57,7 +57,7 @@ const Chainz = (props) => {
         <ChainFour />
         <h3 className="jewel-name">JDN1701148 - BLACK DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$9,600,00</h3>
-        <a onClick={() => props.addBasket('JDN1701148')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN1701148')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -65,7 +65,7 @@ const Chainz = (props) => {
         <ChainFive />
         <h3 className="jewel-name">JDN40407 - DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$4,475,00</h3>
-        <a onClick={() => props.addBasket('JDN40407')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN40407')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -73,7 +73,7 @@ const Chainz = (props) => {
         <ChainSix />
         <h3 className="jewel-name">JDN6897 - BLUE DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$14,220,00</h3>
-        <a onClick={() => props.addBasket('JDN6897')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN6897')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -81,7 +81,7 @@ const Chainz = (props) => {
         <ChainSeven />
         <h3 className="jewel-name">JDN8721 - DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$15,725,00</h3>
-        <a onClick={() => props.addBasket('JDN8721')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN8721')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -89,7 +89,7 @@ const Chainz = (props) => {
         <ChainEight />
         <h3 className="jewel-name">JDN9505 - BLUE DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$12,920,00</h3>
-        <a onClick={() => props.addBasket('JDN9505')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN9505')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>     
        </div>
@@ -97,7 +97,7 @@ const Chainz = (props) => {
          <ChainNine />
         <h3 className="jewel-name">JDN40206 - DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$8,940,00</h3>
-        <a onClick={() => props.addBasket('JDN40206')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('JDN40206')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -105,7 +105,7 @@ const Chainz = (props) => {
         <ChainTen />
         <h3 className="jewel-name">N15116 - DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$4,750,00</h3>
-        <a onClick={() => props.addBasket('N15116')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('N15116')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -113,7 +113,7 @@ const Chainz = (props) => {
         <ChainEleven />
         <h3 className="jewel-name">N170530 - LADY DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$8,544,00</h3>
-        <a onClick={() => props.addBasket('N170530')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('N170530')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>
@@ -121,7 +121,7 @@ const Chainz = (props) => {
         <ChainTwelve />
         <h3 className="jewel-name">N170703 - DIAMOND CHAIN</h3>
         <h3 className="jewel-price">$12,580,00</h3>
-        <a onClick={() => props.addBasket('N170703')} className="addToCart cart1" href="#">
+        <a onClick={() => props.addBasket('N170703')} className="addToCart cart1" href="/#">
           <button className="button">Add to Cart</button>
         </a>      
       </div>

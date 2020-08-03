@@ -29,7 +29,7 @@ const initialState = {
       numbers: 0,
       inCart: false
     },
-    S161506: {
+    S161507: {
       name: "S161506-1B INVISIBLE",
       price: 6400.00,
       numbers: 0,
