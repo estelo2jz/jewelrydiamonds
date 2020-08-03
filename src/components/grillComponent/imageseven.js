@@ -12,9 +12,9 @@ class ImageSeven extends Component {
 
 
   state = {
-      index: 0, 
-      picList: [GrillOne, GrillTwo, GrillThree, GrillFour, GrillFive, GrillSix]
-    }
+    index: 0, 
+    picList: [GrillOne, GrillTwo, GrillThree, GrillFour, GrillFive, GrillSix]
+  }
     
   onClickNext= () => {
       if (this.state.index + 1 === this.state.picList.length ){

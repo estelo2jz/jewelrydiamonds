@@ -6,9 +6,11 @@ import Chainz from './components/Chainz';
 import Watchz from './components/Watchz';
 import Pendantz from './components/Pendantz';
 import Cart from './components/Cart';
-import Footer from './components/footer';
-import Logo from './components/logo.js';
-import Header from './components/header';
+import Footer from './components/Footer';
+import Logo from './components/Logo.js';
+import Header from './components/Header';
+import Payment from './components/Payment';
+import Shipping from './components/shipping';
 import { Provider } from 'react-redux';
 import store from './store';
 import { BrowserRouter as Router, Route, Switch } from  'react-router-dom';
@@ -26,6 +28,8 @@ function App() {
             <Route exact path="/chainz" component={Chainz} />
             <Route exact path="/watchz" component={Watchz} />
             <Route exact path="/pendantz" component={Pendantz} />
+            <Route exact path="/shipping" component={Shipping} />
+            <Route exact path="/payment" component={Payment} />
             <Route path="/cart" component={Cart} />
           </Switch>
           <Footer />

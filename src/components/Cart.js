@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
+import { NavLink } from 'react-router-dom';
 
 function Cart({basketProps}) {
   console.log(basketProps);
@@ -61,6 +62,11 @@ function Cart({basketProps}) {
         <h3>Grand Total: </h3>
         <h4 className="basketTotal">${basketProps.cartCost},00</h4>
       </div>
+      <NavLink to="/shipping">
+        <div className="use-button">
+          Use This Address
+        </div>
+      </NavLink>
     </div>
   )
 }
