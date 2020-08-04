@@ -32,7 +32,6 @@ function App() {
             <Route exact path="/payment" component={Payment} />
             <Route path="/cart" component={Cart} />
           </Switch>
-          <Footer />
         </Router>
       </div>
     </Provider>
