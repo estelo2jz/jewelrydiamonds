@@ -39,7 +39,7 @@ class ImageEight extends Component {
   render() {
     return (
       <div className="images-container">
-        <img src={this.state.picList[this.state.index]} style={{"maxHeight":"0%",}} alt="imageeight" />
+        <img src={this.state.picList[this.state.index]} style={{"maxHeight":"0%"}} alt="imageeight" />
         <br/>
         <button className="myButton" onClick={this.onClickPrevious}> Prev </button>
         <button className="myButton" onClick={this.onClickNext}> Next </button>

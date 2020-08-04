@@ -40,7 +40,7 @@ class ImageSeven extends Component {
   render() {
     return (
       <div className="images-container">
-        <img src={this.state.picList[this.state.index]} style={{"maxHeight":"0%",}} alt="imageseven" />
+        <img src={this.state.picList[this.state.index]} style={{"maxHeight":"0%"}} alt="imageseven" />
         <br/>
         <button style={{"fontSize":"18px"}} onClick={this.onClickPrevious}> Prev </button>
         <button style={{"marginLeft":"5px", "fontSize":"18px"}} onClick={this.onClickNext}> Next </button>
