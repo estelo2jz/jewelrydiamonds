@@ -6,8 +6,8 @@ import Chainz from './components/Chainz';
 import Watchz from './components/Watchz';
 import Pendantz from './components/Pendantz';
 import Cart from './components/Cart';
-import Footer from './components/Footer';
 import Logo from './components/Logo.js';
+import Footer  from './Footer';
 import Header from './components/Header';
 import Payment from './components/Payment';
 import Shipping from './components/shipping';
@@ -32,6 +32,7 @@ function App() {
             <Route exact path="/payment" component={Payment} />
             <Route path="/cart" component={Cart} />
           </Switch>
+          <Footer />
         </Router>
       </div>
     </Provider>
