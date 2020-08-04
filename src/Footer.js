@@ -7,7 +7,7 @@ export default class Footer extends Component {
     return (
       <footer className="footer">
         <div className="container">
-          <a className="footer__logo" href="#">
+          <a className="footer__logo" href="/#">
               <img src={LogoFooter} alt="logo" />
           </a>
           <div className="footer__social">
